@@ -8,6 +8,7 @@
 - [Features](#features)
 - [Architecture](#architecture)
 - [Getting Started](#getting-started)
+- [Environment Variables](#environment-variables)
 - [Commands](#commands)
 - [Testing](#testing)
 - [Folder Structure](#folder-structure)
@@ -212,6 +213,23 @@ components/
 
 ---
 
+## Environment Variables
+
+Create a `.env.local` file in the root of the project to configure runtime environment values used in the app.
+
+### **.env Example**
+
+```env
+# SpaceX API Base URL
+NEXT_PUBLIC_BASE_URL=https://api.spacexdata.com/v3
+
+```
+
+> These variables are automatically loaded by Next.js during development and production builds.
+> Variables prefixed with `NEXT_PUBLIC_` are accessible in client-side code using `process.env`.
+
+---
+
 ## Commands
 
 | Command              | Description                             |
@@ -338,7 +356,3 @@ spacex-demo/
 5. **User Experience**: Infinite scroll is preferred over traditional pagination for this use case
 
 ---
-
-## License
-
-This project is for demonstration purposes and educational use. SpaceX API data is used under their terms of service.
