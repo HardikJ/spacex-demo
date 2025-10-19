@@ -330,21 +330,6 @@ spacex-demo/
 - **Analytics Dashboard**: Add launch statistics and trends
 - **Notifications**: Real-time launch alerts and updates
 - **Theme Toggle**: Light/dark mode switching
-
-### **Medium-term (Next 1-2 months)**
-
-- **Rocket Details**: Dedicated rocket information pages
-- **Calendar View**: Launch schedule calendar interface
-- **Advanced Filters**: Filter by rocket type, launch site, success rate
-- **PWA Support**: Progressive Web App capabilities
-
-### **Long-term (Next 3-6 months)**
-
-- **AI Integration**: Smart recommendations and insights
-- **Data Visualization**: Interactive charts and graphs
-- **Global Features**: Multi-language support and timezone handling
-- **API Expansion**: Integration with additional space APIs
-
 ---
 
 ## Assumptions
