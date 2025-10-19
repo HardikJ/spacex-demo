@@ -192,7 +192,7 @@ components/
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/HardikJ/spacex-demo.git
    cd spacex-demo
    ```
 
@@ -312,7 +312,6 @@ spacex-demo/
 ├── types/                 # TypeScript type definitions
 │   └── index.ts
 ├── jest.config.js         # Jest configuration
-├── jest.setup.js          # Jest setup file
 ├── next.config.ts         # Next.js configuration
 ├── package.json           # Dependencies and scripts
 ├── tailwind.config.js     # Tailwind CSS configuration
@@ -323,8 +322,6 @@ spacex-demo/
 ---
 
 ## Future Improvements
-
-### **Short-term (Next 1-2 weeks)**
 
 - **Launch Videos**: Integrate YouTube/streaming video embeds
 - **Analytics Dashboard**: Add launch statistics and trends
