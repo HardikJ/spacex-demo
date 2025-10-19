@@ -1,8 +1,8 @@
-import Home from "@/components/Home";
+import Favorites from "@/components/Favorites";
 import React from "react";
 
 const Page = () => {
-  return <Home />;
+  return <Favorites />;
 };
 
 export default Page;
